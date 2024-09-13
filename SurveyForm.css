@@ -1,0 +1,100 @@
+/* Main color */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #222;
+    color: #FFF;
+    overflow-x: hidden; /* To avoid horizontal scroll from the my-bg effect */
+}
+
+/* Skewed background */
+.my-bg {
+    background: #00B285;
+    padding: 100px 20px;
+    transform: skew(0deg, -10deg);
+    margin-top: -150px;
+    position: relative;
+}
+
+.my-bg .content {
+    transform: skew(0deg, 10deg);
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.my-bg .content .title {
+    padding-top: 100px;
+    font-weight: normal;
+}
+
+.my-bg .content .text {
+    width: 80%;
+    margin: 25px auto;
+    color: #86F8C3;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers form inputs */
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: left;
+    width: 100%;
+}
+
+input[type="text"], input[type="email"], input[type="number"], textarea, select {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+input[type="submit"] {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Footer Styling 
+.footer {
+    padding-top: 100px;
+}
+
+.footer .credits {
+    text-align: center;
+    color: #666;
+}
+
+.footer .credits .link {
+    color: #00B285;
+    text-decoration: none; 
+}*/
